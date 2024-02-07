@@ -1,7 +1,9 @@
-import React from 'react'
-
 const Servicios = () => {
-  return <div>Servicios</div>
+  return (
+    <div className='h-[100vh] flex justify-center items-center'>
+      <p className='font-primary'>Servicios</p>
+    </div>
+  )
 }
 
 export default Servicios

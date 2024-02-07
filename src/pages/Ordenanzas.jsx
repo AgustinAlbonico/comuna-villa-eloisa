@@ -1,7 +1,9 @@
-import React from 'react'
-
 const Ordenanzas = () => {
-  return <div>Ordenanzas</div>
+  return (
+    <div className='h-[100vh] flex justify-center items-center'>
+      <p className='font-primary'>Ordenanzas</p>
+    </div>
+  )
 }
 
 export default Ordenanzas
